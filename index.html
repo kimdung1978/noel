@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERRY CHRISTMAS</title>
+    <link rel="icon" href="./anh.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+    <audio id="audio" src="./giangsinh.mp3"></audio>
+
+    <div id="as" class="christmas-message">Merry Christmas</div>
+    <div class="tree-container">
+        <img src="https://github.com/Panbap/datapanbap/blob/main/image/big_tree.png?raw=true" alt="Cây thông" class="tree-icon">
+    </div>
+
+
+    <div class="container">
+        <button id="showButton">
+            ♥♥♥Thiệp nè♥♥♥
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark">
+                   <img class="inh" src="anh.png" height="140px" ; width="140px" ;>
+                    
+                </div>
+                <img src="https://github.com/Panbap/datapanbap/blob/main/image/mery.png?raw=true">
+            </div>
+            <div class="details">
+                <h4 class="color margin">MERRY CHRISTMAS</h4>
+                <div class="loichuc">
+                    <p style="line-height:1;">Giáng Sinh đến rồi.</p>
+                    <p style="line-height:1;">Cảm ơn chị đã luôn chỉ dạy.</p>
+                    <p style="line-height:1;">Ba tháng ngắn nhưng nghĩa đong đầy.</p>
+                    <p style="line-height:1;">Chúc chị mãi thành công rực rỡ.</p>
+                    <p style="line-height:1;">Hy vọng ngày lại bước chung tay.</p>
+                </div>
+                <p class="text-right" style="line-height:1;">Chúc mừng Giáng Sinh!</p>
+                <p class="text-right" style="line-height:1;">♥ThuanND33♥</p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
